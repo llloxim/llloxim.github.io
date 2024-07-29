@@ -7,8 +7,8 @@ function App() {
   const [y, setY] = useState(0);
   useEffect(() => {
     const updateMousePosition = (e) => {
-      setX(e.clientX);
-      setY(e.clientY);
+      setX(e.pageX);
+      setY(e.pageY);
     };
     window.addEventListener('mousemove', updateMousePosition);
     return () => {
@@ -38,6 +38,37 @@ function App() {
           </div>
         </div>
         <h1>Eric Lu</h1>
+        <div className='layout'>
+          <div className="topics">
+            <ul>
+              <h1>Education</h1>
+              <h2>I have a degree in Computer Science and a Minor in Data Science from the Univerity of California, Berkeley</h2>
+              <h2>I program mainly in Python but have experince with Javascript, SQL, C, and low level languages</h2>
+            </ul>
+          </div>
+          <div className="topics">
+            <ul>
+              <h1>Coursework</h1>
+              <h2>I have learned alot from my education and on my own time, courses I have taken include:</h2>
+              <ul>
+                <li>Internet Architecture and Protocols</li>
+                <li>Programming Languages and Compilers</li>
+                <li>Operating Systems and System Programming</li>
+                <li>Computer Security</li>
+                <li>Database Systems</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Structures</li>
+              </ul>
+              <h2>Stuff I have looked into on my own time</h2>
+              <ul>
+                <li>Full Stack Development</li>
+                <li>Node.JS</li>
+                <li>React</li>
+                <li>APIs</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   )

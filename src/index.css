@@ -63,3 +63,11 @@ button:focus-visible {
   min-height: 100vh;
 
 }
+.topics{
+  text-align: left;
+  margin-right: 5%;
+}
+.layout{
+  display: flex;
+  justify-content:space-around
+}
