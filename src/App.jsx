@@ -39,11 +39,6 @@ function App() {
         </div>
         <h1>Eric Lu</h1>
         <div className='large'>
-        <div className='head'>
-          <div className='tmp'><h1>Education</h1></div>
-          <div className='tmp'><h2>I have a degree in Computer Science and a Minor in Data Science from the Univerity of California, Berkeley</h2></div>
-          <div className='tmp'><h2>I program mainly in Python but have experince with Javascript, SQL, C, and low level languages</h2></div>
-        </div>
         <div className='middle'>
           <div className='tmp'>
           <div className="topics">
