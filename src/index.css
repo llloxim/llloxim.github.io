@@ -66,6 +66,7 @@ button:focus-visible {
 .topics{
   text-align: left;
   margin-right: 5%;
+  font-weight: bold;
 }
 .layout{
   display: flex;

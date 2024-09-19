@@ -38,7 +38,14 @@ function App() {
           </div>
         </div>
         <h1>Eric Lu</h1>
-        <div className='layout'>
+        <div className='large'>
+        <div className='head'>
+          <div className='tmp'><h1>Education</h1></div>
+          <div className='tmp'><h2>I have a degree in Computer Science and a Minor in Data Science from the Univerity of California, Berkeley</h2></div>
+          <div className='tmp'><h2>I program mainly in Python but have experince with Javascript, SQL, C, and low level languages</h2></div>
+        </div>
+        <div className='middle'>
+          <div className='tmp'>
           <div className="topics">
             <ul>
               <h1>Education</h1>
@@ -46,6 +53,8 @@ function App() {
               <h2>I program mainly in Python but have experince with Javascript, SQL, C, and low level languages</h2>
             </ul>
           </div>
+          </div>
+          <div className='tmp'>
           <div className="topics">
             <ul>
               <h1>Coursework</h1>
@@ -59,16 +68,21 @@ function App() {
                 <li>Artificial Intelligence</li>
                 <li>Machine Structures</li>
               </ul>
-              <h2>Stuff I have looked into on my own time</h2>
-              <ul>
+            </ul>
+          </div>
+          </div>
+        </div>
+        <div className='tmp'>
+            <h2>Stuff I have looked into on my own time</h2>
+              <ul className='no_dots'>
                 <li>Full Stack Development</li>
                 <li>Node.JS</li>
                 <li>React</li>
                 <li>APIs</li>
+                <li>CSS</li>
               </ul>
-            </ul>
-          </div>
         </div>
+      </div>
       </div>
     </>
   )

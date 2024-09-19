@@ -54,3 +54,23 @@ a:visited {
 .card {
   padding: 2em;
 }
+.large{
+  display: grid;
+  grid-row-gap: 10px;
+}
+.middle{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.head{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.no_dots{
+  list-style-type: none;
+  font-size: large;
+  font-weight: bold;
+}
